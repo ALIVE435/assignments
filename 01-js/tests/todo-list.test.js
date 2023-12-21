@@ -1,4 +1,4 @@
-const Todo = require('../hard/todo-list');
+const Todo = require('../hard/todo-list.solution');
 
 describe('Todo', () => {
 	let todoList;
