@@ -37,7 +37,7 @@
   
   const app = express();
   
-  app.use(bodyParser.json());
+  app.use(bodyParser.json());  //app.use() takes a middleware(a callback function) as arguement, bodyParser.json() itself returns a function
   
   let todos = [];
   

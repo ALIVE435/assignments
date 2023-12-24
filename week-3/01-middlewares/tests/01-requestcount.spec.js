@@ -1,4 +1,4 @@
-const app = require("../01-requestcount");
+const app = require("../01-requestcount.solution");
 
 const request = require('supertest');
 const assert = require('assert');
