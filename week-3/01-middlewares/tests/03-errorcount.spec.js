@@ -1,4 +1,4 @@
-const app = require("../03-errorcount");
+const app = require("../03-errorcount.js.solution");
 
 const request = require('supertest');
 const assert = require('assert');

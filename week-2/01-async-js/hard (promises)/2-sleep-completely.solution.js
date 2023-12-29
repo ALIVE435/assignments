@@ -20,3 +20,4 @@ async function main(milliseconds){
 main();
 
 module.exports = sleep;
+/* when we await sleep(), control wait to execute the next line inside the async function only until the async call gets fulfilled while this time control execute the next things after the async await function, just what the how node architect deals with async call in general */

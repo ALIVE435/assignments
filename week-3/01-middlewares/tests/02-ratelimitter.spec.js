@@ -1,4 +1,4 @@
-const app = require("../02-ratelimitter");
+const app = require("../02-ratelimitter.solution");
 
 const request = require('supertest');
 const assert = require('assert');
