@@ -6,7 +6,7 @@ export function Assignment1() {
     const [count, setCount] = useState(0);
 
     // Your code starts here
-    const handleIncrement=useCallback(function (){  //when we pass empty dependencies array, the function is declared only once on 1st rendering or we can say it's reference remain same even after this component is rendered again(function not created again ie recognise as same) and since props hasn't changed respective child components are not rendered again.
+    const handleIncrement=useCallback(function (){  //when we pass empty dependencies array, the function is declared(or initialised) only once on 1st rendering or we can say it's reference remain same even after this component is rendered again(function not created again ie recognise as same) and since props hasn't changed respective child components are not rendered again.
         console.log("increase")
         setCount((c)=>{
             console.log(c)
